@@ -1,0 +1,115 @@
+Converting GML script: ${project_dir}\scripts\scr_player_carhurt\scr_player_carhurt.gml
+Converted builtin - line 75: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 80: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 75: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 80: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\scripts\scr_player_jumphurt\scr_player_jumphurt.gml
+Converted builtin - line 50: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 55: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 50: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 55: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+!!! Font font uses a font (font) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\font\font.gms1.png
+Converting GML script: ${project_dir}\objects\obj_backgroundmoving\Create_0.gml
+Converted builtin - line 1: background_hspeed[0] = -0.3 -> __background_set( e__BG.HSpeed, 0, -0.3 )
+Converted builtin - line 3: background_hspeed[3] = -0.3 -> __background_set( e__BG.HSpeed, 3, -0.3 )
+Converted builtin - line 5: background_hspeed[4] = -16 -> __background_set( e__BG.HSpeed, 4, -16 )
+Converted builtin - line 2: background_vspeed[0] = 0.2 -> __background_set( e__BG.VSpeed, 0, 0.2 )
+Converted builtin - line 4: background_vspeed[3] = 0.2 -> __background_set( e__BG.VSpeed, 3, 0.2 )
+
+Converting GML script: ${project_dir}\objects\obj_backgroundmoving\Alarm_0.gml
+Converted builtin - line 1: background_visible[2] = 0 -> __background_set( e__BG.Visible, 2, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_backgroundmoving\Step_0.gml
+Converted builtin - line 2: background_visible[1] = 1 -> __background_set( e__BG.Visible, 1, 1 )
+Converted builtin - line 4: background_visible[3] = 1 -> __background_set( e__BG.Visible, 3, 1 )
+Converted builtin - line 6: background_visible[3] = 0 -> __background_set( e__BG.Visible, 3, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_camera\Step_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 3: view_xview[0] = clamp(__view_get( e__VW.XView, 0 ), 0, (room_width - __view_get( e__VW.WView, 0 ))) -> __view_set( e__VW.XView, 0, clamp(__view_get( e__VW.XView, 0 ), 0, (room_width - __view_get( e__VW.WView, 0 ))) )
+Converted builtin - line 4: view_yview[0] = clamp(__view_get( e__VW.YView, 0 ), 0, (room_height - __view_get( e__VW.HView, 0 ))) -> __view_set( e__VW.YView, 0, clamp(__view_get( e__VW.YView, 0 ), 0, (room_height - __view_get( e__VW.HView, 0 ))) )
+
+Converting GML script: ${project_dir}\objects\obj_player\Step_0.gml
+Converted builtin - line 177: background_visible[2] = 1 -> __background_set( e__BG.Visible, 2, 1 )
+Converted builtin - line 123: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 144: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 144: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 123: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 145: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 145: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 123: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 123: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player2\Step_0.gml
+Converted builtin - line 117: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 134: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 134: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 117: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 135: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 135: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 117: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 117: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_flyingpep\Collision_9373ee93-8e03-4d11-87cb-1c011cdfdcba.gml
+Converted builtin - line 9: background_visible[2] = 1 -> __background_set( e__BG.Visible, 2, 1 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_wave\Create_0.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 18: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 9: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 18: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 19: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_wave\Draw_64.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_wave\Create_0.gml
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Missing audiogroup for sound: 'mu_select' - setting to default audio group
+Missing audiogroup for sound: 'mu_fryboys' - setting to default audio group
+Missing audiogroup for sound: 'mu_tutorial' - setting to default audio group
+Missing audiogroup for sound: 'sfx_weedoggie' - setting to default audio group
+Missing audiogroup for sound: 'sfx_collect' - setting to default audio group
+Missing audiogroup for sound: 'sfx_jump' - setting to default audio group
+Missing audiogroup for sound: 'sfx_whip' - setting to default audio group
+Missing audiogroup for sound: 'sfx_sploosh' - setting to default audio group
+Missing audiogroup for sound: 'sfx_flyaway2' - setting to default audio group
+Missing audiogroup for sound: 'sfx_flyaway' - setting to default audio group
+Missing audiogroup for sound: 'sfx_ouch3' - setting to default audio group
+Missing audiogroup for sound: 'sfx_ouch2' - setting to default audio group
+Missing audiogroup for sound: 'sfx_ouch' - setting to default audio group
+Missing audiogroup for sound: 'sfx_hitwall' - setting to default audio group
+Missing audiogroup for sound: 'sfx_groovy' - setting to default audio group
+Missing audiogroup for sound: 'sfx_hurt2' - setting to default audio group
+Missing audiogroup for sound: 'sfx_hurt' - setting to default audio group
+Missing audiogroup for sound: 'sfx_hit3' - setting to default audio group
+Missing audiogroup for sound: 'sfx_hit2' - setting to default audio group
+Missing audiogroup for sound: 'sfx_hit1' - setting to default audio group
+Missing audiogroup for sound: 'sfx_spring' - setting to default audio group
+Imported layer depths for room(s) 'sewer_tutorial, fry_boys1, hub_world2, slow_walking, baby_easy' were not adequately spaced. Unless updated this will have undefined results in game.
+Game speed set to 60
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'texture/texture_set_repeat.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script '__global_object_depths.gml'

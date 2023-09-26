@@ -1,0 +1,3 @@
+instance_destroy(obj_checkpoint1)
+instance_destroy(obj_checkpoint2)
+
