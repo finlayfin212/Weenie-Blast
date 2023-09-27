@@ -46,7 +46,7 @@ switch state
         scr_player_groundbump()
         break
     case 26:
-        scr_player_attack()
+        scr_player_normal()
         break
     case 27:
         scr_player_balloonhang()
@@ -61,7 +61,7 @@ switch state
         scr_player_duck()
         break
     case 15:
-        scr_player_shoot()
+	scr_player_normal()
         break
     case 14:
         scr_player_land()
@@ -91,10 +91,10 @@ switch state
         scr_player_dashslide()
         break
     case 28:
-        scr_player_attackup()
+        scr_player_normal()
         break
     case 29:
-        scr_player_attackdown()
+        scr_player_normal()
         break
     case 30:
         scr_player_dashair()

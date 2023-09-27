@@ -124,32 +124,6 @@ function scr_player_normal() {
 	{
 	    if ((player == 1) && (global.player_rage != 7))
 	    {
-	        vsp = -1
-	        state = 26
-	        image_speed = 0.25
-	        if (global.player_corndog == 0)
-	        {
-	            if (charselect == 1)
-	            {
-	                if (dashAnim == 1)
-	                {
-	                    scr_sound(6)
-	                    sprite_index = choose(125, 124, 123)
-	                }
-	                else if (dashAnim == 0)
-	                    sprite_index = spr_player_dashattack
-	            }
-	            if (charselect == 2)
-	            {
-	                if (dashAnim == 1)
-	                {
-	                    scr_sound(6)
-	                    sprite_index = choose(72, 71, 70)
-	                }
-	                else if (dashAnim == 0)
-	                    sprite_index = spr_player2_dashattack
-	            }
-	        }
 	        if (global.player_corndog == 1)
 	        {
 	            if (charselect == 1)
@@ -171,31 +145,6 @@ function scr_player_normal() {
 	    }
 	    if ((player == 2) && (global.player2_rage != 7))
 	    {
-	        vsp = -1
-	        state = 26
-	        if (global.player_corndog == 0)
-	        {
-	            if (charselect == 1)
-	            {
-	                if (dashAnim == 1)
-	                {
-	                    scr_sound(6)
-	                    sprite_index = choose(125, 124, 123)
-	                }
-	                else if (dashAnim == 0)
-	                    sprite_index = spr_player_dashattack
-	            }
-	            if (charselect == 2)
-	            {
-	                if (dashAnim == 1)
-	                {
-	                    scr_sound(6)
-	                    sprite_index = choose(72, 71, 70)
-	                }
-	                else if (dashAnim == 0)
-	                    sprite_index = spr_player2_dashattack
-	            }
-	        }
 	        if (global.player_corndog == 0)
 	        {
 	            if (charselect == 1)
@@ -219,24 +168,9 @@ function scr_player_normal() {
 	}
 	if (key_attack && key_up)
 	{
-	    state = 28
-	    vsp = -5
-	    image_index = 0
 	}
 	if (key_attack && (!key_up))
 	{
-	    if ((player == 1) && (global.player_rage == 7))
-	    {
-	        state = 34
-	        super_timer = 200
-	        image_index = 0
-	    }
-	    if ((player == 2) && (global.player2_rage == 7))
-	    {
-	        state = 34
-	        super_timer = 200
-	        image_index = 0
-	    }
 	}
 	if (place_meeting(x, y, obj_ladder) && (key_up && (canClimb == 1)))
 	    state = 20
