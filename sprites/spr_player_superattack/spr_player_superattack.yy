@@ -67,7 +67,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"eac994c5-dc9d-43ea-9caf-93f1a715719f","path":"sprites/spr_player_superattack/spr_player_superattack.yy",},},},"Disabled":false,"id":"5255e49d-c1b7-4a4f-a447-98eb8af2aa11","IsCreationKey":false,"Key":5.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 100,
     "yorigin": 100,

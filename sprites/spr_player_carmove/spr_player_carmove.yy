@@ -63,7 +63,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fa9d57ee-16a7-4ba1-86ad-fa9bc79930e5","path":"sprites/spr_player_carmove/spr_player_carmove.yy",},},},"Disabled":false,"id":"f69b0308-f032-40ff-9fed-4abe78c445b2","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 100,
     "yorigin": 99,

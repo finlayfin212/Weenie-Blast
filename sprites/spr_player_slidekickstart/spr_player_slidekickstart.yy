@@ -61,7 +61,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8b643545-eb70-4479-bf39-1720ecef8a6f","path":"sprites/spr_player_slidekickstart/spr_player_slidekickstart.yy",},},},"Disabled":false,"id":"1e1166c5-dfd3-432e-8a5b-98479cd6c719","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 100,
     "yorigin": 100,

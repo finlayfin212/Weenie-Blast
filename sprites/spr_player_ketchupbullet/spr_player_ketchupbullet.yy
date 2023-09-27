@@ -61,7 +61,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7c593171-020a-4fe4-a18b-c20e31b96f6b","path":"sprites/spr_player_ketchupbullet/spr_player_ketchupbullet.yy",},},},"Disabled":false,"id":"b5b75ace-6b54-4ebe-ad50-021da540d158","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 100,
     "yorigin": 100,

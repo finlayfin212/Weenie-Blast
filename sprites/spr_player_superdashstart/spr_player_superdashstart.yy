@@ -73,7 +73,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c19232ab-5a4f-492d-8fa2-5c049775e76b","path":"sprites/spr_player_superdashstart/spr_player_superdashstart.yy",},},},"Disabled":false,"id":"2bf07ed6-402e-4dd3-9077-990ecd9a33ef","IsCreationKey":false,"Key":8.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 100,
     "yorigin": 100,

@@ -69,7 +69,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4f4b5d58-92a4-42ef-9c37-0fa97c5dc895","path":"sprites/spr_player_balloonhang/spr_player_balloonhang.yy",},},},"Disabled":false,"id":"0b57595f-46a1-46ea-b8bc-d7f05cc0a7a3","IsCreationKey":false,"Key":6.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 90,
     "yorigin": 108,

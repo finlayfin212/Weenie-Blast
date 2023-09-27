@@ -63,7 +63,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c5c9418e-170a-4a7f-bd71-40a998a73c24","path":"sprites/spr_player_dashlandwall/spr_player_dashlandwall.yy",},},},"Disabled":false,"id":"554785b2-d164-4aab-8844-6d8de307dacb","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 78,
     "yorigin": 89,
